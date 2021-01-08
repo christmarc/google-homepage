@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+  p, li {
+    color: rgb(54, 54, 54);
+}
+
+#app {
+  width:15px;
+  margin: 0 20px 0 0;
+}
+
+#user {
+   margin: 0 20px 0 0;
+   width: 30px;
+   border-radius: 50%;
+}
+header{
+    margin: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+    
+}
+.link {
+    display: inline;
+    margin: 0 25px 0 0;
+}
+
+.logo {
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.logo img{
+    position: relative;
+    top: 155px;
+}
+.search-container {
+    width: 482px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding: 0px 15px;
+    border: 1px solid ;
+    color: rgba(80, 78, 78, 0.384);
+    margin: 0 auto;
+    
+
+}
+.search-container :hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input {
+     border-radius: 25px;
+     width: 400px;
+     height: 30px;
+     border: none;
+     background-color: transparent;
+     
+}
+
+.cta {
+
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    margin: 11px 14px;
+    padding: 0px 16px;
+    border: 1px solid #f8f9fa;
+    background-color: #F8F9FA;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    height: 36px;
+    min-width: 54px;
+    line-height: 27px;
+}
+
+main
+p {
+ text-align: center;
+ font-size: 13px;
+ margin: 15px 0 0 0;
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(173, 169, 169, 0.185);
+    font-size: 13px;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+.footer-top  {
+    text-align: left;
+    height: 40px;
+    border-bottom:1px solid rgba(173, 171, 171, 0.37);
+    border-top:1px solid rgba(173, 171, 171, 0.37);
+    padding: 10px 20px;
+
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content:space-between ;
+  height: 40px;
+  flex-wrap: wrap ;
+
+}
+
+.m1{
+    display: flex;
+    list-style: none;
+    height: 40px;
+   
+    border-top:1px solid rgba(173, 171, 171, 0.37);
+
+}
+
+.m1 a{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+}
+.m1 li{
+    margin: 10px 20px 0px 20px;
+}
